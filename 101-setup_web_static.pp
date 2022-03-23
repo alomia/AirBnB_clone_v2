@@ -12,3 +12,5 @@ sudo chown -R ubuntu:ubuntu /data/;
 sudo sed -i \'24i \\n\tlocation /hbnb_static {\n\t\talias /data/web_static/current/;\n\t}\' /etc/nginx/sites-available/default && sudo service nginx restart',
   provider => shell,
 }
+
+

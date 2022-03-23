@@ -5,7 +5,7 @@ Deploying tgz file to our servers
 
 from fabric.api import put, run, env
 from os.path import exists
-env.hosts = ['35.237.25.66', '34.234.71.240']
+env.hosts = ['3.93.164.52', '18.207.92.226']
 env.user = 'ubuntu'
 
 
